@@ -1,0 +1,730 @@
+a:hover {
+    text-decoration: none !important
+}
+
+ul {
+    padding: 0 !important
+}
+
+li {
+    list-style: none
+}
+
+.t-a-r {
+    text-align: right;
+    padding-right: 80px !important
+}
+
+.p-l-140 {
+    padding-left: 60px !important
+}
+
+h1.brown-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #c99469;
+    margin-bottom: unset
+}
+
+h1.black-title {
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #181717;
+    margin-bottom: 18px
+}
+
+h1.white-title {
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #fff;
+    margin-bottom: 18px
+}
+
+.arrow {
+    margin-left: 14px
+}
+
+.zi {
+    z-index: 5
+}
+
+html {
+    background-color: #181717;
+    overflow-x: hidden
+}
+
+body {
+    background-color: #181717 !important;
+    font-family: 'Noto Serif', serif;
+    padding-top: 30px
+}
+
+header .row {
+    align-items: center;
+    justify-content: cente
+}
+
+.logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #d8a47a
+}
+
+.logo:hover {
+    color: #d8a47a
+}
+
+header ul::after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+header ul li.active a {
+    font-weight: normal;
+    padding-bottom: 2.5px;
+    border-bottom: 2px solid #b37849
+}
+
+header ul li a {
+    float: left;
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff
+}
+
+header ul li a:hover {
+    color: #fff
+}
+
+header ul li:last-of-type {
+    margin-right: 0
+}
+
+svg.menu {
+    display: none
+}
+
+.navbar2 {
+    display: none
+}
+
+.head-title-wo {
+    display: none
+}
+
+.head-title h1 {
+    width: 456px;
+    height: 252px;
+    opacity: 0.98;
+    font-family: 'Noto Serif', serif;
+    font-size: 62px !important;
+    font-weight: bold !important;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal !important;
+    letter-spacing: normal;
+    color: #ffffff !important;
+    margin-bottom: 50px !important
+}
+
+.head-title a.book-btn {
+    padding: 13px 32px 15px 32px;
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    border: 0.5px solid #fff
+}
+
+header .food-container {
+    position: relative;
+    height: 726px;
+    transform: translateX(-110px)
+}
+
+header .food-container img {
+    position: absolute
+}
+
+header .food-container img.garlic {
+    top: 50px;
+    left: 190px
+}
+
+header .food-container img.onion {
+    top: 125px;
+    left: 130px
+}
+
+header .food-container img.salt1 {
+    top: 300px;
+    left: 130px;
+    animation: mudun 1s both
+}
+
+header .food-container img.plant {
+    top: 466px;
+    left: 10px;
+    animation: mudun 1s both
+}
+
+header .food-container img.sliced-tomatoes {
+    top: 483px;
+    left: 100px
+}
+
+header .food-container img.pan {
+    left: 90px;
+    z-index: 5;
+    transform: scale(5)
+}
+
+header .food-container img.pepper {
+    top: 428px;
+    left: 290px
+}
+
+header .food-container img.salt2 {
+    top: 75px;
+    left: 470px;
+    transform: rotate(9deg)
+}
+
+header .food-container img.spoon-tomatoes {
+    top: 100px;
+    left: 682.5px
+}
+
+header .food-container img.rosemary {
+    top: 313px;
+    left: 635px;
+    transform: rotate(-9deg)
+}
+
+header .food-container img.plant2 {
+    top: 366px;
+    left: 714px;
+    animation: mudun 1s both
+}
+
+.foods-image {
+    display: none
+}
+
+.our-story {
+    padding-top: 200px
+}
+
+.our-story .our-story-image {
+    padding: 0 !important;
+    z-index: 2
+}
+
+.our-story .our-story-image>img {
+    width: 100%
+}
+
+.splash-water2 {
+    position: absolute;
+    z-index: -1;
+    width: unset !important;
+    right: -50px;
+    bottom: -150px
+}
+
+.splash-water3 {
+    position: absolute;
+    z-index: -1;
+    width: unset !important;
+    top: -140px;
+    left: -30px;
+    opacity: 0.89
+}
+
+.our-story .our-story-article {
+    background-color: #fff;
+    padding: 57px 100px 56px 100px;
+    z-index: 2
+}
+
+.our-story .our-story-article>p {
+    width: 458px;
+    height: 125px;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.2px;
+    color: #28394f;
+    margin-bottom: 40px
+}
+
+a.more {
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #c99469
+}
+
+.our-story .our-story-article .thyme {
+    position: absolute;
+    right: -100px;
+    bottom: -100px
+}
+
+.food-menu {
+    padding-top: 255px
+}
+
+.food-menu .food-item {
+    align-items: center
+}
+
+.food-menu .description {
+    padding-bottom: 150px
+}
+
+.food-menu .description p {
+    width: 458px;
+    height: 103px;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.2px;
+    color: #ffffff
+}
+
+.food-item.first .food-image {
+    padding-right: 50px
+}
+
+.food-item.last .food-image {
+    padding-left: 75px
+}
+
+.row .food-image:nth-child(odd) {
+    text-align: right
+}
+
+.row .food-image:nth-child(even) {
+    text-align: left
+}
+
+.row .food-description:nth-child(odd) {
+    padding-left: 200px
+}
+
+.row .food-description:nth-child(even) {
+    padding-left: 135px
+}
+
+.food-description p {
+    width: 307px;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.2px;
+    color: #ffffff
+}
+
+.event {
+    padding-top: 200px;
+    padding-bottom: 130px
+}
+
+.event .event-image {
+    padding: 0 !important;
+    z-index: 2
+}
+
+.event .event-image>img {
+    width: 100%
+}
+
+.white-flour {
+    position: absolute;
+    z-index: -1;
+    width: unset !important;
+    top: -80px;
+    right: -225px
+}
+
+.event .event-article {
+    background-color: #fff;
+    padding: 57px 100px 56px 100px;
+    z-index: 2
+}
+
+.event .event-article>p {
+    width: 458px;
+    height: 50px;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.2px;
+    color: #28394f
+}
+
+.event .event-article .spoon {
+    position: absolute;
+    right: -50px;
+    bottom: -50px
+}
+
+.event .event-article .event-name {
+    text-align: right;
+    margin-bottom: 40px
+}
+
+.event .event-article .event-name b {
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: #28394f
+}
+
+.event .event-article .event-name p {
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: #28394f
+}
+
+.ingredients {
+    text-align: center
+}
+
+.ingredients p {
+    width: 672px;
+    height: 100px;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.67;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 88px
+}
+
+.ingredients-image {
+    padding-top: 88px
+}
+
+.ingredients .col-xl-12>div {
+    display: inline-block;
+    height: 371px
+}
+
+.ingredients .col-xl-12>div>img {
+    display: block
+}
+
+.ingredients img.peppercorns {
+    margin-top: 80px;
+    margin-bottom: 25px;
+    margin-left: 44px
+}
+
+.ingredients img.rosemary2 {
+    margin-top: 25px;
+    margin-left: -5px
+}
+
+.ingredients img.onion2 {
+    margin-top: 100px
+}
+
+.ingredients img.tomato {
+    transform: translateX(150px)
+}
+
+.reservation {
+    background-image: url("../img/group-3-copy.png");
+    margin-top: 160px;
+    padding: 128px 0 127px 0;
+    text-align: center
+}
+
+h1.reservation-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #fff;
+    margin-bottom: unset
+}
+
+h1.big-white-title {
+    font-family: 'Noto Serif', serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 65px
+}
+
+.book-btn {
+    padding: 13px 58px 16px 59px;
+    border: 1px solid #fff;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #ffffff
+}
+
+footer {
+    background-color: #181717;
+    padding: 125px 0 90px 0
+}
+
+footer .footer-row {
+    align-items: center
+}
+
+footer ul {
+    display: inline-block
+}
+
+footer ul:first-child {
+    margin-right: 60px
+}
+
+footer ul li.brown-list {
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #c99469;
+    margin-bottom: 20px
+}
+
+footer ul li.black-list {
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #181717;
+    margin-bottom: 20px
+}
+
+footer ul li a {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff
+}
+
+.email-box {
+    text-align: right
+}
+
+p.email {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 25px
+}
+
+.flow0 {
+    position: absolute;
+    top: 1800px;
+    left: 250px;
+    z-index: 1
+}
+
+@media screen and (max-width: 1199px) {
+    .food-container {
+        display: none
+    }
+
+    .foods-image {
+        display: block
+    }
+
+    .foods-image>img {
+        width: 100%;
+    }
+
+    .our-story .our-story-article {
+        padding: 40px 100px 20px 100px
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .our-story .our-story-article .thyme {
+        transform: scale(0.9)
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .our-story .our-story-article .thyme {
+        transform: scale(0.7)
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .head-title {
+        display: none
+    }
+
+    .head-title-wo {
+        display: block;
+        text-align: center
+    }
+
+    .head-title h1 {
+        width: unset;
+        height: unset;
+        font-size: 42px !important;
+        max-width: 550px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 70px
+    }
+
+    .col-6.col-sm-6.col-md-6.col-lg-9.col-xl-7 {
+        text-align: right
+    }
+
+    .navbar {
+        display: none !important
+    }
+
+    .menu {
+        display: inline-block !important
+    }
+
+    .our-story .our-story-article {
+        padding: 40px 100px 30px 100px
+    }
+
+    .our-story .our-story-article>p {
+        width: unset;
+        height: 55px;
+        overflow-y: hidden;
+        margin-bottom: 18px
+    }
+
+    h1.brown-title {
+        font-size: 34px
+    }
+
+    h1.black-title {
+        font-size: 34px
+    }
+
+    .splash-water2 {
+        transform: scale(0.7)
+    }
+
+    .splash-water3 {
+        transform: scale(0.7)
+    }
+
+    .our-story .our-story-article .thyme {
+        transform: scale(0.7);
+        position: absolute;
+        right: -100px;
+        bottom: -125px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .our-story .our-story-image {
+        display: none
+    }
+
+    .our-story .our-story-article {
+        padding: 57px 100px 56px 100px
+    }
+
+    .our-story .our-story-article>p {
+        width: unset;
+        height: unset;
+        overflow-y: hidden
+    }
+}
